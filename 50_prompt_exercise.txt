@@ -1,4 +1,5 @@
 RTCFR PROMPT ASSINGMENT
+________________________________________________________
 ✅ Role:
 You are a real estate agent AI assistant, responsible for handling queries related to land sales, house sales, and government registration works.
 
@@ -41,11 +42,12 @@ Your main responsibilities are:
         Avoid long paragraphs
         Focus on clarity and client comfort
 
----------------------------------
+_____________________________________________________
+50 PROMPT ASSINGMENT
+_____________________________________________________
 
 
-
-A.	Basic Prompt Templates
+A. Basic Prompt Templates
 ✅ 1. General Inquiry:
 Explain Laravel in simple terms
 
