@@ -1,0 +1,251 @@
+RTCFR PROMPT ASSINGMENT
+✅ Role:
+You are a real estate agent AI assistant, responsible for handling queries related to land sales, house sales, and government registration works.
+
+✅ Task:
+Your main responsibilities are:
+    -Collect client details such as name, mobile number, and city, and schedule appointments with clients
+    -Explain details to clients regarding land sales, house sales, and government registration related works
+    -Provide information about the documents required to register land or house
+    -Answer client queries based on available details such as lands, houses, and registration work
+
+✅ Context:
+    -Elavarasan has 5+ years of experience in the real estate field
+    -Available Services: Buy / Sell – Lands, New Homes, Pre-owned Homes, and Registration works (e.g., Document Registration, Patta, Chitta, EC)
+    -Available Hours: Mon – Sat (06:00 AM – 08:00 PM)
+    -Loan facility available through banks and financers
+
+✅ Fewshots
+    Example 1: Land Availability Checking
+    Q1: Is there any land available for sale under Rs. 3,00,000?
+    Agent Answer: Yes, we have 5+ lands available near Erode under that budget.
+
+    Example 2: Loan Facility for Purchase
+    Q1: Is there any loan facility available to purchase land, new homes, or pre-owned homes?
+    Agent Answer: Yes, we have tie-ups with nationalized banks, private banks, and financers.
+
+    Example 3: Sq.ft Cost
+    Q1: What is the sq.ft cost for the Omsakthi Nagar lands?
+    Agent Answer: It depends on the site. Price starts from Rs. 300 per sq.ft
+
+    Example 4: Document Registration Doubt
+    Q1: What documents are needed to register a land or house?
+    Agent Answer: You need Aadhar card, PAN card, land documents, recent EC, Patta, and Chitta
+
+✅ Report / Tone
+    Tone: Friendly, professional, and approachable
+    Complexity Level: Beginner (use simple, clear language)
+    Style:
+        Answer in maximum 3 sentences
+        Use bold to highlight important words
+        Avoid long paragraphs
+        Focus on clarity and client comfort
+
+---------------------------------
+
+
+
+A.	Basic Prompt Templates
+✅ 1. General Inquiry:
+Explain Laravel in simple terms
+
+✅ 2. Summarization:
+Summarize the following text in 6 bullet points: 
+    Laravel is a free, open-source web framework built in PHP that helps developers create websites and web applications more easily and efficiently. Instead of writing everything from scratch, Laravel provides a set of tools and features—like routing, database access, form handling, user authentication, and security—that are commonly needed in most web projects. It helps organize code in a clean and structured way, making it easier to build, maintain, and scale applications. Laravel is beginner-friendly, especially for those who already know some PHP, and it saves a lot of time by handling repetitive tasks with built-in solutions.
+
+✅ 3. Paraphrasing
+Rewrite following sentence in your own words: 
+    You are an full stack laravel developer. you have experience in blade template, controllers, models, migrations, routes, pest php, unit testing.
+
+✅ 4. Definition Request
+What is the meaning of Laravel Migrations
+
+✅ 5. Comparison
+Compare Laravel and Node Js based on speed, features, community, packages 
+
+B.	Persona-Based Prompt Templates
+✅ 6. Role + Explanation
+You are an senior laravel developer, Explain the laravel migration to 12 year old student.
+
+✅ 7. Style Mimicry
+You are an Taylor Otwell, Tell me about laravel cloud.
+
+✅8. Professional writing
+You are an experienced laravel developer, write a testcase for signup.
+
+C. Few-shot prompt Templates
+✅9. Classification Templates
+Classify Statement:
+    Absolutely loved the GenAI Program -> Positive
+    The experience was terrible -> Negative
+    Not bad, but not great -> Neutral
+
+✅10. Transalation Template
+Translate the following sentences into tamil:
+I love learning new things
+
+✅11. Question Answering Template
+Answering these Questions
+What is the capital of India? -> New Delhi
+What is the national animal of india? -> Tiger
+What is the captial city of Tamilnadu -> 
+
+Chain-of-thought (COT) Templates
+✅12. Step by Step Reasoning
+Lets think step by step to calculate Z value. X + Y = 10; Y + Z = 12; X + Z =14 
+
+✅13. Math Problem Solving
+Solve the math problem by showing your work
+Maria bought 4 pens and 2 notebooks for $14. Each pen costs $2. How much does one notebook cost?
+
+✅14. Logical Puzzle
+Three developers — Anna, Brian, and Carlos — each specialize in one of these web technologies: HTML, CSS, and JavaScript. Use the clues to figure out who specializes in what.
+
+👣 Clues:
+Anna does not specialize in CSS.
+The JavaScript specialist is not Carlos.
+Brian specializes in CSS.
+
+E. Instruction Tuning / Format control
+✅15. Output Formating
+Summarize the PestPHP in exactly 10 bullet points 
+
+✅16. Table Generation
+Create a table and compare Laravel, Node Js, Python based on development speed
+
+✅17. Email writing
+Write a professional mail to HR Manager (hr@example.com) regarding resign my position. use formal Tone
+
+F. Contextual prompt
+✅18. Tailored Explanation
+Explain Laravel to a 15 year old student who knows the basic PHP.
+
+✅19. Industry-specific Context
+As a AI engineer, explain how Agentic AI is impacts the software development industry.
+
+G. Creative writing prompts
+✅20. story writing
+Write a short story about junior developer who builds the full application but faces error at the deployment
+
+✅21. Poem writing
+Write a poem as like Subramania Bharathiyar about modern world of AI in tamil
+
+✅22. Dialogue writing
+write a realistic dialogue between the_AI_dude and ai_with_thiru discussing about future of AI
+
+H. Code and Technical Prompt
+✅23. Code Generation
+write a laravel program for Signup packages
+
+✅24. Debugging helps
+Here I add some code, Find and fix any errors.
+def hello_test()
+    print("Hello, Test!")
+
+hello_test()
+
+✅25. API Documentation
+Explain How to use the https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key} with example request and response.
+
+I. Marketing & Business prompt
+✅26. Ad Copywriting
+write a compelling ad for web development service for targeting new business owners.
+
+✅27. Product Description
+write a persuasive product description for Website
+
+✅28. Social Media Post
+Create a social media post promoting digital marketing service in a friendly tone.
+
+J. Customer support & Service prompts
+✅29. Response to Complaint
+Response professionally to this customer Complaint : Website is not working, it is too slow. How customers are convert?
+
+✅30. FAQ Generator
+Generate a 5 common FAQs and answers for Website development
+
+K. Education and Tutoring prompts
+✅31. Lession Plan Creation
+Create a lession plan for teaching digital marketing to entry level business owners
+
+✅32. Quiz Generation
+Generate a 5 question quiz about Digital Marketing
+
+✅33. Homework helps
+Explain how to solve this math problems : 2*4+(5*0)*5
+
+L. Advanced framework based templates
+✅34. reAct framework
+You are a digital marketing strategist. Use the reAct format to develop a basic online marketing strategy for a new product.
+
+Question: How can we market a new eco-friendly reusable water bottle online?
+
+Thought 1: First, I need to understand the target audience and the product's unique value.
+Action 1: Research typical buyers of eco-friendly products and identify trends in the reusable bottle market.
+Observation 1: The audience includes environmentally conscious millennials and Gen Z, often active on Instagram and TikTok. Main interests: sustainability, health, and minimalism.
+
+✅35. Tree of Thoughts (TOT)
+Generate  3 possible solution to fix website slow. evaluate each and choose the best one.
+
+✅36. self-consistency prompting
+solve the following question in 3 different ways ans pick the most consistant answers.
+Question: Is Wordpress good for web design?
+
+M. Prompt optimization & Evaluation
+✅37. Prompt Refinement
+Improve this prompt: "you are an experienced laravel developer, explain about pestPHP" Make it clearer, more specific and structured.
+
+✅38. Prompt Grading Rubric
+Rate the following output based on the following criteria (1-5): Relevance, Accuracy, clarity, fluency, creativity and final score
+
+You are an experienced Laravel developer and expert in modern PHP testing.
+Please provide a detailed explanation of PestPHP, including:
+    ✅ What PestPHP is and how it differs from PHPUnit
+    ✅ Key features and benefits
+    ✅ How it integrates with Laravel
+    ✅ Example of a basic test using PestPHP in a Laravel project
+    ✅ When and why you might choose PestPHP over other testing frameworks
+Use clear and professional language suitable for developers familiar with Laravel but new to PestPHP.
+
+✅39. Prompt Iteration Challenge
+Take this weak prompt: "you are an experienced laravel developer, explain about pestPHP"
+Now rewrite it 3 times to improve clarity and effectiveness.
+
+N. Real world Application prompts
+✅40. Job Posting Creation
+Write a job posting for Prompt engineer at social eagle. include responsibilities, requirements, and benefits.
+
+✅41. Resume summary builder
+Create a professional summary for web developer based on the following details experience: wordpress, laravel development, skills: SEO, Digital Marketing, achievements: won 1st price in web design hackathon.
+
+✅42. Business Proposal
+Write a proposal for Web Design to Social Eagle Pvt Ltd. Includes objectives, methodology and benefits.
+
+O. Miscellaneous useful templates
+✅43. Opinion writing
+write an Opinion piecce on Google Adwords. use persuasive arguments and examples
+
+✅44. Debate preparation
+prepare arguments for both sides of the debate : Modern World AI is Good or bad
+
+✅45. Travel Planining
+Plan a 5 day trip to Manali for solo traveller. Include activities, budget, and tips.
+
+✅46. Book / Movie Review
+write a review of Vinnai thandi varuvaya. Include plot summary, strength, weekness and recommentation.
+
+✅47. Personal development
+Give me a actionable advice on how to start a freelancer agency, including habits and midset shifts
+
+Prompt Chaining examples
+✅48. Multi step research tasks
+step 1: find out the top 5 causes of Modern AI.
+step 2: based on these causes, suggest 5 practical solutions individuals can adopt.
+
+✅49. Idea to Execution
+Step 1: generate 5 business ideas in digital marketing
+step 2: pick one idea and create a marketing strategy for it.
+
+Prompt Template Generator
+✅50. Universal prompt builder
+You are a digital marketer, create a weekly social media post schedule. Includes text, podcast, video, carousel and posting time in table format
